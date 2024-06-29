@@ -91,7 +91,7 @@ header {
     color: white;
     padding: 5px;
 }
-.main--main {
+.main-main {
     width: 100%;
     min-height: 70vh;
     position: relative;
@@ -100,6 +100,6 @@ header {
     align-items: center;
     background-color: #37517e;
 }
-.main-move--content {
+.main-intro {
     height: 1500px;
 }
