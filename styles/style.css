@@ -130,7 +130,6 @@ header {
     font-size: 1.4rem;
     align-items: center;
 }
-
 .main-intro--right img {
     object-fit: contain;
     width: 550px;
@@ -144,6 +143,7 @@ header {
         transform: translateY(15px);
     }
 }
+/*-------------------- company --------------------*/
 .main-company {
     display: flex;
     height: 80px;
@@ -171,6 +171,7 @@ header {
     height: 70%;
     object-fit: contain;
 }
+/*-------------------- about us --------------------*/
 .main-aboutus--container {
     padding: 60px;
 }
@@ -223,12 +224,172 @@ header {
     background-color: #47b2e4;
     color: white;
 }
+/*-------------------- footer --------------------*/
+.footer-container {
+    padding: 0 0 50px;
+}
+/*-------------------- footer middle --------------------*/
+.footer-top {
+    background-color: color(srgb 0.215686 0.317647 0.494118 / 0.05);
+    padding: 50px 0;
+}
+.top--container {
+    padding: 0 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+}
+.top-content > div {
+    margin: 0 0 8px;
+    padding: 0 0 12px;
+    color: #37517E;
+    font-weight: 1000;
+    font-size: 2.8rem;
+}
+.top-content > p {
+    padding: 0 0 16px;
+    font-size: 1.6rem;
+}
+.footer-form {
+    margin: 0 0 15px;
+    padding: 6px 8px;
+    background-color: white;
+    border-radius: 50px;
+    padding: none;
+    width: 100%;
+}
+.footer-form > div {
+    display: flex;
+    align-items: center; 
+    overflow: hidden; 
+}
+.input-email {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 0; 
+    background-color: white;
+}
+.submit-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #47b2e4;
+    color: white;
+    border-radius: 50px;
+}
+.submit-button:hover {
+    background-color: #1f78b4; 
+}
+/*-------------------- footer middle --------------------*/
+.footer-middle {
+    padding-top: 50px;
+    font-size: 1.8rem;
+}
+
+.middle--container {
+    display: flex;
+    justify-content: space-between; 
+    max-width: 1140px; 
+    margin: -10px auto; 
+}
+
+.middle--container > div {
+    display: flex;
+    flex-direction: column; 
+    gap: 20px; 
+}
+
+.middle--container > div:nth-child(1), 
+.middle--container > div:nth-child(4)  {
+    flex: 2; 
+}
+
+.middle--container > div:nth-child(2),
+.middle--container > div:nth-child(3){
+    flex: 1; 
+}
+
+.middle--container ul, .middle--container li {
+    margin-bottom: 15px;
+}
+
+.middle--container a:hover {
+    color: lightblue;
+}
+
+.middle--container p {
+    margin: 0 0 10px;
+}
+.middle--container h1 {
+    color: #37517E;
+    font-weight: 800;
+}
+
+#title {
+    font-size: 3rem;
+}
+
+
+.middle--container i {
+    margin-right: 5px; 
+}
+
+.middle--container > div > div:last-child {
+    display: flex;
+    gap: 10px; 
+}
+.circle {
+    display: inline-flex; 
+    align-items: center; 
+    justify-content: center; 
+    width: 40px; 
+    height: 40px; 
+    border-radius: 50%; 
+    border: 1px solid black;
+    font-size: 1.6rem; 
+    margin: 5px; 
+}
+.circle:hover {
+    color: black;
+}
+/*-------------------- footer bottom --------------------*/
+.footer-bottom {
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin: 20px;
+    font-size: 1.3rem;
+}
+.bottom--container {
+    border-top: 1px solid rgba(211, 211, 211,0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.bottom--container > p {
+    margin-top: 30px;
+}
+.bottom--container a {
+    color: rgb(134, 199, 221);
+}
+.bottom--container strong, .middle--container strong{
+    font-weight: bold;
+}
+
 .up-btn {
     position: fixed;
     bottom: 20px;
     right: 20px;
 }
-
 .scroll-to-top {
     background-color: #00a6eb;
     border: none;
