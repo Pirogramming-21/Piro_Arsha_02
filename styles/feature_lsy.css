@@ -1,0 +1,348 @@
+.main_Eum {
+    height: auto;
+    overflow: auto;
+    background-color: #f5f6f8;
+    padding: 30px;
+}
+
+.main-Eum-container{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: #f5f6f8;
+    position: relative;
+
+}
+
+.eum_text {
+    padding: 0.75rem 0;
+    margin-top: 24px;
+    width: 60%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.eum_text_header {
+    font-weight: 400;
+    font-size: 34px;
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #37517e;
+}
+.eum_text_header_h {
+    font-weight: 800;
+}
+
+.eum_text_content {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    color: rgb(114, 115, 116);
+    font-size: 17px;
+}
+
+.eum_box_container {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+}
+
+.eum_box_box {
+    background-color: white;
+    position: relative;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.eum_h {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    margin: 0 30px 0 0;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.uni77{
+    color: #47b2e4;
+    padding-right: 5px;
+    font-weight: 600;
+}
+
+.eum_icon {
+    position:absolute;
+    top: 20px;;
+    right: 20px;
+}
+
+.eum_box_box_p {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: 0.3s ease-in-out;
+    visibility: hidden;
+    opacity: 0;
+
+
+}
+
+.eum_icon:checked ~ .eum_box_box_p {
+    opacity: 1;
+    visibility: visible;
+}
+.eum_label {
+    transition: 0.3s ease-in-out;
+
+}
+#eum_:checked ~ .eum_box_box_p {
+    opacity: 1;
+    visibility: visible;
+
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    font-size: 16px;
+}
+
+#eum_:checked ~ .eum_label {
+    transform: rotate(90deg);
+}
+#eum_:checked ~ .uni77 {
+    color: #47b2e4;
+}
+#eum_2:checked ~ .eum_box_box_p {
+    opacity: 1;
+    visibility: visible;
+
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    font-size: 16px;
+}
+
+#eum_2:checked ~ .eum_label {
+    transform: rotate(90deg);
+}
+#eum_3:checked ~ .eum_box_box_p {
+    opacity: 1;
+    visibility: visible;
+
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    font-size: 16px;
+}
+
+#eum_3:checked ~ .eum_label {
+    transform: rotate(90deg);
+}
+
+.eum_pic {
+    max-width: 100%;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+    margin-top: 1.5rem;
+    height: 41%;
+    width: 40%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+.eum_pic > img {
+
+    width: 420xp;
+    height: 320px;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1024px) {
+.main-Eum-container{
+    flex-direction: column-reverse;
+}
+}
+
+.questions {
+    height: auto;
+    overflow: auto;
+    background-color: #f5f6f8;
+    padding: 60px;
+    position: relative;
+
+}
+.qustions-header {
+    height: auto;
+    width: auto;
+    text-transform: uppercase;
+    position: relative;
+    align-items: center;
+    justify-self: center;
+    text-align: center;
+}
+.q_h {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    color: #37517e;
+}
+.q_h_content {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    color: rgb(114, 115, 116);
+    font-size: 17px;
+}
+
+.questions-header .q_h:before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 160px;
+    height: 1px;
+    background: color-mix(in srgb, var(--default-color), transparent 60%);
+    left: 0;
+    right: 0;
+    bottom: 1px;
+    margin: auto;
+  }
+
+  .questions-header .q-h:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: var(--accent-color);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
+
+  .questions-container {
+    position: relative;
+    padding: 12px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+  }
+  .questions-card {
+    overflow: 20px;
+    position: relative;
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 20px;
+    height: auto;
+
+    font-weight: 600;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .questions-card-h {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0 30px 0 32px;
+    transition: 0.3s;
+    color:#37517e;
+  }
+  .questions-card-h span {
+    color: #47b2e4;
+    padding-right: 10px;
+  }
+  .questions-card-p {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: 0.3s ease-in-out;
+    visibility: hidden;
+    opacity: 0;
+
+    overflow: hidden;
+    margin-bottom: 0;
+  }
+  
+  .questions-card-i {
+    position: absolute;
+    color:#47b2e4;
+    top: 20px;
+    right: 20px;
+    transition: 0.3s;
+  }
+
+  #qs_more:checked ~.questions-card-p {
+    opacity: 1;
+    visibility: visible;
+
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    font-size: 16px;
+  }
+  #qs_more:checked ~.questions-card-i {
+    transform: rotate(90deg)
+  }
+
+  @media  screen and (max-width: 570px) {
+    .questions-container {
+        padding: 0 12px;
+        width:auto;
+    }
+  }
+  @media  screen and (max-width: 676px) {
+    .questions-container {
+        padding: 0 12px;
+        width:516px;
+    }
+  }
+  @media  screen and (max-width: 980px) {
+    .questions-container {
+        padding: 0 12px;
+        width:696px;
+        }
+    }
+    @media  screen and (max-width: 1400px) {
+        .questions-container {
+            padding: 0 12px;
+            width:1076px;
+        }
+  }
