@@ -17,12 +17,14 @@
     flex-direction: row;
     background-color: #f5f6f8;
     position: relative;
-
+    align-items: center;
+    justify-content: center;
 }
 
 .eum_text {
     padding: 0.75rem 0;
     margin-top: 24px;
+    margin-left: 24px;
     width: 60%;
     height: auto;
     align-items: center;
@@ -37,6 +39,7 @@
     font-weight: 500;
     line-height: 1.2;
     color: #37517e;
+    padding: 0 48px;
 }
 .eum_text_header_h {
     font-weight: 800;
@@ -53,12 +56,23 @@
     unicode-bidi: isolate;
     color: rgb(114, 115, 116);
     font-size: 17px;
+    padding: 0 48px;
 }
 
 .eum_box_container {
     opacity: 1;
     -webkit-transform: none;
     transform: none;
+    padding: 0 48px;
+}
+
+@media screen and (max-width: 1200px) {
+    .eum_text_header, .eum_text_content, .eum_text_container{
+        padding: 0 12px
+    }
+    .eum_box_container{
+        padding: 0 12px;
+    }
 }
 
 .eum_box_box {
@@ -189,13 +203,20 @@
 }
 }
 
+@media screen and (max-width: 1200px) {
+    .eum_text_header {
+
+    }
+}
+
 .questions {
     height: auto;
     overflow: auto;
     background-color: #f5f6f8;
     padding: 60px;
     position: relative;
-
+    display: flex;
+    flex-direction: column;
 }
 .qustions-header {
     height: auto;
@@ -256,10 +277,12 @@
     position: relative;
     padding: 12px;
     margin-bottom: 20px;
-    width: 100%;
+    width: 70%;
     height: auto;
-    align-items: center;
+    display: flex;
+
     justify-content: center;
+    align-items: center;
   }
   .questions-card {
     overflow: 20px;
@@ -268,9 +291,12 @@
     background-color: white;
     padding: 20px;
     height: auto;
+    width:auto;
+    max-width: 926px;
 
     font-weight: 600;
     font-size: 18px;
+
     align-items: center;
     justify-content: center;
   }
@@ -278,7 +304,7 @@
   .questions-card-h {
     font-weight: 600;
     font-size: 18px;
-    line-height: 24px;
+    /* line-height: 24px; */
     margin: 0 30px 0 32px;
     transition: 0.3s;
     color:#37517e;
@@ -317,12 +343,15 @@
     margin-inline-end: 0px;
     unicode-bidi: isolate;
     font-size: 16px;
+
+    width: auto;
+    height: auto;
   }
   #qs_more:checked ~.questions-card-i {
     transform: rotate(90deg)
   }
 
-  @media  screen and (max-width: 570px) {
+  /* @media  screen and (max-width: 570px) {
     .questions-container {
         padding: 0 12px;
         width:auto;
@@ -345,4 +374,4 @@
             padding: 0 12px;
             width:1076px;
         }
-  }
+  } */
