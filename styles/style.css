@@ -348,7 +348,7 @@ header {
     border-radius: 50px;
 }
 .submit-button:hover {
-    background-color: #1f78b4; 
+    background: color-mix(in srgb, #47b2e4, transparent 20%);   
 }
 /*-------------------- footer middle --------------------*/
 .footer-middle {
@@ -373,7 +373,9 @@ header {
 .middle--container > div:nth-child(4)  {
     flex: 2; 
 }
-
+.middle--container > div:nth-child(1) {
+    margin-right: -50px;
+}
 .middle--container > div:nth-child(2),
 .middle--container > div:nth-child(3){
     flex: 1; 
@@ -403,9 +405,9 @@ header {
     font-size: 3rem;
 }
 .footer-chevron {
-    margin-right: 5px; 
     padding-left: 0px;
     font-size: 1rem;
+    color: lightblue;
 }
 .middle--container > div > div:last-child {
     display: flex;
@@ -471,7 +473,6 @@ header {
     justify-content: center;
     align-items: center;
 }
-
 #scrollToTopBtn:hover {
     background-color: deepskyblue;
 }
