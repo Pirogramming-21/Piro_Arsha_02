@@ -1,0 +1,131 @@
+
+.main-portfolio {
+    height: auto;
+    overflow: auto;
+    background-color: white;
+    padding: 60px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.po_head {
+    height: auto;
+    width: auto;
+    max-width: 1320px;
+    text-transform: uppercase;
+    position: relative;
+    align-items: center;
+    justify-self: center;
+    text-align: center;
+}
+.po_head_h {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    color: #37517e;
+}
+.po_head_explain {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    color: rgb(114, 115, 116);
+    font-size: 17px;
+}
+
+.po_content {
+    width: auto;
+    height: auto;
+    max-width: 1320px;
+    display: flex;
+    position: relative;
+}
+
+.po_content_bar {    
+  padding: 0;
+  margin: 0 auto 20px auto;
+  list-style: none;
+  text-align: center;
+}
+
+.po_content_bar li {
+    
+    padding: 8px 20px 10px 20px;
+    margin: 0;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1;
+    margin-bottom: 5px;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+}
+
+.po_content_bar li:hover,
+.po_content_bar li.filter-active {
+    color: white;
+    background-color:#47b2e4;
+}
+
+.po_content_container {
+    /* width: auto;
+    height: auto;
+    max-width: 1140px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px; */
+    position: relative;
+    overflow: hidden;
+    width: 1320px;
+    height: auto;
+    position: relative;
+    column-count: 3;
+    gap: 16px;
+    
+}
+
+.po_content_photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  height: auto;
+  /* max-width: 100%;
+  max-height: auto; */
+}
+
+.po_content-photo img {
+    overflow: hidden;
+    width: 440px;
+    height: auto;
+}
+
+/* .po_content_photo {
+    margin: 24px 0 0;
+    padding: 0 12px;    
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    position: relative;
+} */
+
+
+
+
+
+
+@mixin make-col($size: false, $columns: $grid-columns) {
+    @if $size {
+      flex: 0 0 auto;
+      width: percentage(divide($size, $columns));
+  
+    } @else {
+      flex: 1 1 0;
+      max-width: 100%;
+    }
+  }
