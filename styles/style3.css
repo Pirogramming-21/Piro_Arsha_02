@@ -150,6 +150,7 @@
     transition: 0.3s;
 }
 
+
 #main-contact-buynow2 {
     background-color: #47b2e4;
     color:white;
@@ -256,6 +257,12 @@
     border-radius: 50px;
     margin-right: 15px;
 }
+.main-contact-bi::before {
+    font-family: bootstrap-icons !important;
+    font-style: normal;
+    line-height: 1;
+    vertical-align: -.125em;
+}
 .main-contact-bi-geo-alt::before {
     content: "\f3e8";
 }
@@ -305,7 +312,7 @@
 }
 .main-contact-box-content-inputf-form-name {
     padding-right: 1.5rem;
-    padding-left: 3.5rem;
+    padding-left: 5.8rem;
     margin-top: 1.5rem;
     height:75px;
 }
@@ -314,8 +321,8 @@
     font-size: 16px;
     padding: 0 0 8px;
 }
-.main-contact-name {
-    padding-bottom: .5rem !important;
+.main-contact-box-content-inputf-form-name .main-contact-name {
+    padding: 0 0 8px;
 }
 .main-contact-namefield {
     font-size: 14px;
@@ -343,4 +350,132 @@
     display: flex;
     justify-content: center;
     height:44px;
+}
+.main-contact-box-content-inputf-form-subject {
+    margin:24px 0 0;
+    width: 710px;
+}
+.main-contact-box-content-inputf-form-name textarea {
+    height: 232px;
+}
+#message-field:focus {
+    border-color:#47b2e4;
+    border-radius: 0;
+}
+#name-field:focus, #email-field:focus, #subject-field:focus {
+    border-color: #47b2e4;
+}
+
+.main-graph {
+    color:#444444;
+    background-color: #ffffff;
+    padding:60px 0;
+}
+.main-graph-container {
+    padding-right: 2.5rem;
+    padding-left:2.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main-graph-container-box {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
+}
+.main-graph-left {
+    align-items: center !important;
+    display: flex !important;
+}
+.main-graph-left {
+    padding-right: 1.5rem;
+    padding-left: 7.5rem;
+    margin-top: 1.5rem;
+}
+.main-graph-left img {
+    max-width: 100%;
+    height: auto;
+    width:636px;
+    height:391.28px;
+}
+.main-graph-right {
+    width: 660px;
+    padding-right: 7.5rem;
+    padding-left: -1.5rem;
+    margin-top: 1.5rem;
+}
+.main-graph-right h3 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #37517e;
+    font-family: "Jost", sans-serif;
+    margin-top: 0;
+    margin-bottom: 17px;
+    line-height: 1.3;
+}
+.main-graph-right p {
+    font-family: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua;
+    font-size: 16px;
+    color: color-mix(in srgb, #444444, transparent 30%);
+    font-style: italic !important;
+    margin-top:0;
+    margin-bottom: 18px;
+}
+.main-graph-skill_things {
+    width:636px;
+    height:240px;
+}
+.main-graph-skill-progress {
+    width:636px;
+    height: 60px;
+}
+.main-graph-skill-progress > span{
+    display: flex;
+    justify-content: space-between;
+    font-size:12px;
+    font-weight: 600;
+    font-family: "Jost", sans-serif;
+    margin: 0 0 6px;
+}
+.main-graph-skill-progress-bar {
+    background-color: color-mix(in srgb, #37517e, transparent 90%);
+    height:10px;
+    position:relative;
+}
+.main-graph-skill-progress-bar-move {
+    height: 100%;
+    width:0;
+    background-color: #37517e;
+    text-align: center;
+    line-height: 10px;
+    position: absolute;
+}
+#graph-html {
+    animation: graph-html 1s forwards;
+}
+@keyframes graph-html {
+    from {width:0;}
+    to {width:100%;}
+}
+#graph-css {
+    animation: graph-css 1s forwards;
+}
+@keyframes graph-css {
+    from {width:0;}
+    to {width:90%;}
+}
+#graph-javascript {
+    animation: graph-javascript 1s forwards;
+}
+@keyframes graph-javascript {
+    from {width:0;}
+    to {width:75%;}
+}
+#graph-photo {
+    animation: graph-photo 1s forwards;
+}
+@keyframes graph-photo {
+    from {width:0;}
+    to {width:55%;}
 }
