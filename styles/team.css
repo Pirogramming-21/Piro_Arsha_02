@@ -1,0 +1,232 @@
+.main-team{
+    color: var(--default-color);
+    background-color: var(--background-color);
+    padding: 60px 0;
+    scroll-margin-top: 88px;
+    overflow: clip;
+    display: block;
+    unicode-bidi: isolate;
+}
+.team-title{
+    text-align: center;
+    padding-bottom: 60px;
+    position: relative;
+}
+.team-title>h2{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    position: relative;
+    color: var(--heading-color);
+    font-family: var(--heading-font);
+    margin-top: 0;
+}
+.team-title>h2::before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 160px;
+    height: 1px;
+    background: 
+    color-mix(in srgb, var(--default-color), transparent 60%);
+    left: 0;
+    right: 0;
+    bottom: 1px;
+    margin: auto;
+}
+.team-title>h2::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: var(--accent-color);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    box-sizing: border-box;
+}
+.team-title>p{
+    font-size: 18px;
+}
+.team-container{
+    width: 100%;
+    max-width: 1140px;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.team-memberall{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -1.5rem;
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
+    justify-content: space-between;
+    gap:20px;
+}
+
+.team-memberall> * {
+    flex: 1 1 calc(50% - 40px);
+    max-width: 100%;
+    --bs-gutter-x: 1.5rem;
+    padding-right: calc(var(--bs-gutter-x)* 0.5);
+    padding-left: calc(var(--bs-gutter-x)* 0.5);
+    margin-top: var(--bs-gutter-x);
+}
+
+.team-member{
+
+    background-color: var(--surface-color);
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    position: relative;
+    border-radius: 5px;
+    transition: 0.5s;
+    padding: 30px;
+    height: 100%;
+    display: flex;
+}
+.member-pic{
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.team-img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.member-info {
+    padding: 30px;
+    display: block;
+}
+
+.member-info h4 {
+    display: block;
+    color: var(--heading-color);
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 20px;
+    margin-top: 0;
+    line-height: 1.2rem;
+}
+
+.member-info span {
+    display: block;
+    font-size: 15px;
+    padding-bottom: 10px;
+    position: relative;
+    font-weight: 500;
+}
+.member-info span::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 1px;
+    background: var(--default-color);
+    bottom: 0;
+    left: 0;
+}
+
+.member-info p {
+    margin: 10px 0 0 0;
+    font-size: 14px;
+}
+
+.member-social {
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+}
+
+.memeber-social a {
+    background-color: lightgray;
+    transition: ease-in-out 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    width: 36px;
+    height: 36px;
+    margin-left: 8px;
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+.member-social a:hover {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+.member-social a:hover i {
+    color: #ffffff;
+}
+
+.member-social a i {
+    color: var(--default-color);
+    font-size: 16px;
+    margin: 0 2px;
+    /*font-style: italic;*/
+}
+.bi-twitter-x::before {
+    display: inline-block;
+    content: '\f8db';
+    /*font-family
+    font-weight
+    font-variant*/
+    font-style: normal;
+    text-transform: none;
+    line-height: 1;
+    vertical-align: -0.125em;
+}
+
+.bi-facebook::before {
+    display: inline-block;
+    content: '\f344';
+    /*font-family
+    font-weight
+    font-variant*/
+    font-style: normal;
+    text-transform: none;
+    line-height: 1;
+    vertical-align: -0.125em;
+}
+
+.bi-instagram::before {
+    display: inline-block;
+    content: '\f437';
+    /*font-family
+    font-weight
+    font-variant*/
+    font-style: normal;
+    text-transform: none;
+    line-height: 1;
+    vertical-align: -0.125em;
+}
+
+.bi-linkedin::before {
+    display: inline-block;
+    content: '\472';
+    /*font-family
+    font-weight
+    font-variant*/
+    font-style: normal;
+    text-transform: none;
+    line-height: 1;
+    vertical-align: -0.125em;
+}
+.team-icon{
+
+    height: 36px;
+}
