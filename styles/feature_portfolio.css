@@ -82,10 +82,10 @@
     position: relative;
     overflow: hidden;
     width: 1320px;
-    height: auto;
-    position: relative;
+    height: auto;    /* position: relative; */
     column-count: 3;
     gap: 16px;
+    display: flex;
     
 }
 
@@ -95,6 +95,7 @@
   justify-content: center;
   width: 30%;
   height: auto;
+  /* flex: 1; */
   /* max-width: 100%;
   max-height: auto; */
 }
@@ -116,16 +117,3 @@
 
 
 
-
-
-
-@mixin make-col($size: false, $columns: $grid-columns) {
-    @if $size {
-      flex: 0 0 auto;
-      width: percentage(divide($size, $columns));
-  
-    } @else {
-      flex: 1 1 0;
-      max-width: 100%;
-    }
-  }

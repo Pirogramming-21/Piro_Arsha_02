@@ -274,19 +274,18 @@
   }
 
   .questions-container {
-    position: relative;
+
     padding: 12px;
     margin-bottom: 20px;
-    width: 70%;
+    width: auto;
     height: auto;
-    display: flex;
 
-    justify-content: center;
+    position: relative;
     align-items: center;
+    justify-self: center;
   }
   .questions-card {
     overflow: 20px;
-    position: relative;
     margin-bottom: 20px;
     background-color: white;
     padding: 20px;
@@ -296,9 +295,7 @@
 
     font-weight: 600;
     font-size: 18px;
-
-    align-items: center;
-    justify-content: center;
+    position: relative;
   }
 
   .questions-card-h {
@@ -344,8 +341,8 @@
     unicode-bidi: isolate;
     font-size: 16px;
 
-    width: auto;
-    height: auto;
+    /* width: auto;
+    height: auto; */
   }
   #qs_more:checked ~.questions-card-i {
     transform: rotate(90deg)
