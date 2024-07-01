@@ -165,20 +165,6 @@ header {
     font-weight: 700;
     gap: 20px;
 }
-@media (max-width: 992px) {
-    .main-intro {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .main-intro--left, .main-intro--right {
-        width: 100%;
-        text-align: center;
-    }
-    .main-intro--right {
-        order: -1;
-    }
-}
 .main-intro--left {
     padding: 0 50px;
 }
@@ -498,17 +484,3 @@ header {
 #scrollToTopBtn:hover {
     background-color: deepskyblue;
 }
-
-/*--------------------------- mobile ---------------------*/
-
-/* footer */
-/* @media (max-width: 770px) {
-    .middle--container {
-        flex-direction: column;
-        align-items:center;
-    }
-
-    .middle--container > div {
-        margin-right: 0;
-    }
-} */
