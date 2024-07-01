@@ -232,6 +232,7 @@ header {
 /*-------------------- about us --------------------*/
 .main-aboutus--container {
     padding: 60px;
+    background-color: white;
 }
 .fa-circle-check {
     color: #00a6eb;
@@ -289,6 +290,7 @@ header {
 /*-------------------- footer --------------------*/
 .footer-container {
     padding: 0 0 50px;
+    background-color: white;
 }
 /*-------------------- footer middle --------------------*/
 .footer-top {
