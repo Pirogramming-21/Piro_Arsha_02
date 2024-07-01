@@ -1,0 +1,565 @@
+.main-pricing {
+    background-color: #f5f6f8;
+    color:#444444;
+    padding: 60px 0;
+    font-family: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.main-pricing-container {
+    width: 100%;
+    padding-right: 7.5rem;
+    padding-left: 7.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main-pricing-top{
+    text-align: center;
+    padding-bottom: 60px;
+    position: relative;
+    max-width: 1320px;
+}
+.main-pricing-top-title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    position: relative;
+    color:#37527e;
+    font-family: "Jost", sans-serif;
+}
+.main-pricing-top-title::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 160px;
+    height: 1px;
+    left: 0;
+    right: 0;
+    bottom: 1px;
+    margin: auto;
+    background-color: #444444;
+}
+.main-pricing-top-title::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 60px;
+    height: 3px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: #47b2e4;
+}
+.main-pricing-top-text {
+    margin-top:0;
+    margin-bottom:0;
+    font-size:16px;
+    font-weight: 400;
+    height:24px;
+}
+.main-pricing-box {
+    display:flex;
+    justify-content: center;
+    margin-top: -1.5rem;
+    margin-right: -0.75rem;
+    margin-left: -0.75rem;
+}
+.main-pricing-box-content {
+    width:440px;
+    height:540.59px;
+}
+.main-pricing-box-content {
+    width:416px;
+    background-color: #ffffff;
+    box-shadow: 0 3px 20px -2px rgb(0,0,0,0.1);
+    border-top: 4px solid #ffffff;
+    padding: 60px 40px;
+    height:100%;
+    border-radius: 5px;
+    margin: 0 16px;
+}
+.main-pricing-box-content-item h3 {
+    font-weight: 600;
+    margin-top:0;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color:#37527e;
+    font-family: "Jost", sans-serif;
+}
+.main-pricing-box-content-item h4 {
+    color:#47b2e4;
+    font-size: 48px;
+    font-weight: 400;
+    font-family: "Jost", sans-serif;
+    margin-bottom: 0;
+}
+.main-pricing-box-content-item h4 sup {
+    font-size: 28px;
+    top:-0.5em;
+    position:relative;
+    vertical-align: baseline;
+}
+.main-pricing-box-content-item h4 span {
+    color: color-mix(in srgb, #444444, transparent 50%);
+    font-size: 18px;
+}
+.main-pricing-box-content-item ul {
+    padding: 20px 0;
+    line-height: 20px;
+    margin-top:0;
+}
+.main-pricing-box-content-item ul li {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+.main-pricing-box-content-item ul i {
+    color: #059652;
+    font-size: 24px;
+    padding-right: 3px;
+}
+.bi-check::before {
+    content: "\f26e";
+}
+.bi::before {
+    font-family: bootstrap-icons !important;
+    font-style: normal;
+    line-height: 1;
+    vertical-align: -.125em;
+}
+.bi-x::before {
+    content: "\f62a";
+    color: color(srgb 0.266667 0.266667 0.266667/0.4);
+}
+.main-pricing-box-content-item a {
+    color: #47b2e4;
+    display: inline-block;
+    padding: 11px 35px 10px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Jost", sans-serif;
+    border: 1px solid #47b2e4;
+    height: 44px;
+    margin-top: 20px;
+}
+#main-pricing-buynow1:hover, #main-pricing-buynow3:hover {
+    background-color: #47b2e4;
+    color:white;
+    transition: 0.3s;
+}
+
+
+#main-contact-buynow2 {
+    background-color: #47b2e4;
+    color:white;
+}
+.main-contact {
+    background-color: #f5f6f8;
+    color:#444444;
+    padding: 60px 0;
+    font-family: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.main-contact-container {
+    width: 100%;
+    padding-right: 7.5rem;
+    padding-left: 7.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main-contact-top{
+    text-align: center;
+    padding-bottom: 60px;
+    position: relative;
+    max-width: 1320px;
+}
+.main-contact-top-title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    position: relative;
+    color:#37527e;
+    font-family: "Jost", sans-serif;
+}
+.main-contact-top-title::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 160px;
+    height: 1px;
+    left: 0;
+    right: 0;
+    bottom: 1px;
+    margin: auto;
+    background-color: #444444;
+}
+.main-contact-top-title::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 60px;
+    height: 3px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: #47b2e4;
+}
+.main-contact-top-text {
+    margin-top:0;
+    margin-bottom:0;
+    font-size:16px;
+    font-weight: 400;
+    height:24px;
+}
+.main-contact-box {
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: -1.5rem;
+    margin-right: -0.75rem;
+    margin-left: -0.75rem;
+    align-content: center;
+    justify-content: center;
+}
+.main-contact-box-content {
+    max-width: 100%;
+    padding-right: 0.5rem;
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+.main-contact-box-content-info  {
+    background-color: #ffffff;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    border-top: 3px solid #47b2e4;
+    border-bottom: 3px solid #47b2e4;
+    padding: 30px;
+    height: 604.78px;
+    width: 526px;
+    margin: 0 23px;
+}
+.main-contact-box-content-info-explain {
+    display: flex !important;
+    margin: 0 0 40px;
+}
+.main-contact-box-content-info-explain i {
+    font-size: 20px;
+    color: #47b2e4;
+    background: color-mix(in srgb, #47b2e4, transparent 92%);
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin-right: 15px;
+}
+.main-contact-bi::before {
+    font-family: bootstrap-icons !important;
+    font-style: normal;
+    line-height: 1;
+    vertical-align: -.125em;
+}
+.main-contact-bi-geo-alt::before {
+    content: "\f3e8";
+}
+.main-contact-bi-call::before {
+    content: "\f32f";
+}
+.main-contact-bi-email::before {
+    content: "\f32f";
+}
+.main-contact-box-content-info-explain i:hover {
+    background-color: #47b2e4;
+    color:#ffffff;
+}
+.main-contact-box-content-info-explain h3 {
+    padding: 0;
+    font-size:18px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: #37517e;
+    font-family: "Jost", sans-serif;
+    margin-top:0;
+}
+.main-contact-box-content-info-explain p {
+    padding: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.main-contact-box-content-input {
+    background-color: #ffffff;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    border-top: 3px solid #47b2e4;
+    border-bottom: 3px solid #47b2e4;
+    padding: 30px;
+    height: 604.78px;
+    width: 746px;
+}
+.main-contact-box-content-inputf-form {
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: -1.5rem;
+    margin-right: -0.75rem;
+    margin-left: -0.75rem;
+    height:490px;
+}
+.main-contact-box-content-inputf-form-name {
+    padding-right: 1.5rem;
+    padding-left: 5.8rem;
+    margin-top: 1.5rem;
+    height:75px;
+}
+.main-contact-box-content-input label {
+    display: inline-block;
+    font-size: 16px;
+    padding: 0 0 8px;
+}
+.main-contact-box-content-inputf-form-name .main-contact-name {
+    padding: 0 0 8px;
+}
+.main-contact-namefield {
+    font-size: 14px;
+    padding: 10px 15px;
+    border-radius: 0;
+    width: 100%;
+    font-weight: 400;
+    line-height: 1.5;
+    border: 1px solid #dee2e6;
+    font-family: inherit;
+}
+.main-contact-send {
+    text-align:center !important;
+    color:white;
+    background-color: #47b2e4;
+    border:0;
+    padding: 10px 30px;
+    border-radius: 50px;
+    font-size: 16px;
+}
+.main-contact-send:hover {
+    background-color: color-mix(in srgb, #47b2e4, transparent 25%);
+}
+.main-contact-button {
+    display: flex;
+    justify-content: center;
+    height:44px;
+}
+.main-contact-box-content-inputf-form-subject {
+    margin:24px 0 0;
+    width: 710px;
+}
+.main-contact-box-content-inputf-form-name textarea {
+    height: 232px;
+}
+#message-field:focus {
+    border-color:#47b2e4;
+    border-radius: 0;
+}
+#name-field:focus, #email-field:focus, #subject-field:focus {
+    border-color: #47b2e4;
+}
+
+.main-graph {
+    color:#444444;
+    background-color: #ffffff;
+    padding:60px 0;
+}
+.main-graph-container {
+    padding-right: 2.5rem;
+    padding-left:2.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main-graph-container-box {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
+}
+.main-graph-left {
+    align-items: center !important;
+    display: flex !important;
+}
+.main-graph-left {
+    padding-right: 1.5rem;
+    padding-left: 7.5rem;
+    margin-top: 1.5rem;
+}
+.main-graph-left img {
+    max-width: 100%;
+    height: auto;
+    width:636px;
+    height:391.28px;
+}
+.main-graph-right {
+    width: 660px;
+    padding-right: 7.5rem;
+    padding-left: -1.5rem;
+    margin-top: 1.5rem;
+}
+.main-graph-right h3 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #37517e;
+    font-family: "Jost", sans-serif;
+    margin-top: 0;
+    margin-bottom: 17px;
+    line-height: 1.3;
+}
+.main-graph-right p {
+    font-family: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua;
+    font-size: 16px;
+    color: color-mix(in srgb, #444444, transparent 30%);
+    font-style: italic !important;
+    margin-top:0;
+    margin-bottom: 18px;
+}
+.main-graph-skill_things {
+    width:636px;
+    height:240px;
+}
+.main-graph-skill-progress {
+    width:636px;
+    height: 60px;
+}
+.main-graph-skill-progress > span{
+    display: flex;
+    justify-content: space-between;
+    font-size:12px;
+    font-weight: 600;
+    font-family: "Jost", sans-serif;
+    margin: 0 0 6px;
+}
+.main-graph-skill-progress-bar {
+    background-color: color-mix(in srgb, #37517e, transparent 90%);
+    height:10px;
+    position:relative;
+}
+.main-graph-skill-progress-bar-move {
+    height: 100%;
+    width:0;
+    background-color: #37517e;
+    text-align: center;
+    line-height: 10px;
+    position: absolute;
+}
+#graph-html {
+    animation: graph-html 1s forwards;
+}
+@keyframes graph-html {
+    from {width:0;}
+    to {width:100%;}
+}
+#graph-css {
+    animation: graph-css 1s forwards;
+}
+@keyframes graph-css {
+    from {width:0;}
+    to {width:90%;}
+}
+#graph-javascript {
+    animation: graph-javascript 1s forwards;
+}
+@keyframes graph-javascript {
+    from {width:0;}
+    to {width:75%;}
+}
+#graph-photo {
+    animation: graph-photo 1s forwards;
+}
+@keyframes graph-photo {
+    from {width:0;}
+    to {width:55%;}
+}
+
+.main-call {
+    padding: 120px 0;
+    position: relative;
+    clip-path: insert(0);
+    z-index:-1;
+}
+.main-call::before {
+    content:"";
+    position:absolute;
+    background-color: color-mix(in srgb, #37517e, transparent 35%);
+    inset:0;
+    z-index:-1;
+}
+.main-call img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -2;
+}
+.main-call-container {
+    margin:0 250px 0 276px;
+    padding:0 12px;
+    position: relative;
+    z-index: 1;
+}
+.main-call-box {
+    width: 100%;
+    width:1320px;
+    height:105.59;
+    display: flex;
+}
+.main-call-left {
+    width: 990px;
+}
+.main-call-left h3 {
+    height:33.59px;
+    color: #ffffff;
+    font-size: 28px;
+    font-weight:700;
+    font-family: "Jost", sans-serif;
+    margin: 0 0 8px;
+}
+.main-call-left p {
+    font-size:19px;
+    height:48px;
+    color: #ffffff;
+    margin: 0 0 16px;
+}
+.main-call-right {
+    text-align: center !important;
+    width: 306px;
+    height: 105.594px;
+    padding: 0 12px;
+}
+.main-call-button {
+    font-family: "Jost", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 17px 40px;
+    border-radius: 50px;
+    margin: 10px;
+    border: 2px solid #ffffff;
+    color:#ffffff;
+}
+@media (max-width: 1000px) {
+    .main-call-container {
+        margin: 0 40px;
+    }
+    .main-call-button {
+        display: flex;
+        margin-top: 0;
+        margin-bottom:20px;
+        flex-direction: column;
+        align-items: center;
+    }
+}
