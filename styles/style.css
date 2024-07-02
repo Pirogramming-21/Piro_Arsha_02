@@ -93,7 +93,7 @@ header {
 /*-------------------- header-bottom --------------------*/
 .header-bottom {
     padding: 15px 0;
-    background-color: rgba(55, 81, 126, 0.9);
+    background-color:rgba(55,81,126,0.9);
 }
 .header-bottom--container {
     display: flex;
@@ -250,20 +250,29 @@ header {
     display: flex;
     font-size: 2rem;
     gap: 20px;
-    margin: 0 50px;
+    margin: 0 109px;
 }
-.content-left, .content-right {
+.content-left {
     flex: 1; 
     padding: 0 12px; 
-
 }
+.content-right {
+    flex: 1; 
+    padding: 0 12px; 
+}
+.content-left p, .content-right p {
+    flex: 1; 
+    padding: 0 12px 8px; 
+    font-family: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
 .content-left > p {
-    margin: 0 0 16px;
+    margin: 0 -10px 16px;
 }
 .content-left ul {
     display: flex;
     flex-direction: column; 
-    gap: 10px; 
+    gap: 15px; 
     padding: 0; 
     margin: 0;
     list-style: none; 
@@ -272,18 +281,19 @@ header {
 .content-left li {
     display: flex; 
     align-items: center; 
+    font-size:16px;
 }
   
 .fa-arrow-right {
     margin: 0 10px;
 }
 .content-right > p {
-    margin: 0 0 16px;
+    margin: 0 -13px 16px;
 }
 .content-right > div {
     font-size: 16px;
     letter-spacing: 1px;
-    padding: 8px 28px;
+    padding: 13px 28px;
     border-radius: 5px;
     display: inline-flex;
     align-items: center;

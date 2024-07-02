@@ -42,7 +42,7 @@
     padding: 0 48px;
 }
 .eum_text_header_h {
-    font-weight: 800;
+    font-weight: 400;
 }
 
 .eum_text_content {
@@ -203,11 +203,6 @@
 }
 }
 
-@media screen and (max-width: 1200px) {
-    .eum_text_header {
-
-    }
-}
 
 .questions {
     height: auto;
