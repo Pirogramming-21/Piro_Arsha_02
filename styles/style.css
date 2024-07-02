@@ -93,7 +93,7 @@ header {
 /*-------------------- header-bottom --------------------*/
 .header-bottom {
     padding: 15px 0;
-    background-color:rgba(55,81,126,0.9);
+    background-color:#37517e;
 }
 .header-bottom--container {
     display: flex;
